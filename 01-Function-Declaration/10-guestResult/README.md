@@ -4,6 +4,6 @@
 function sayHi(age) {
     if (age < 12) alert('Hi kid');
 }
-console.log(sayHi); // *
-console.log(sayHi(10)); // **
+console.log(sayHi); // * undefined 
+console.log(sayHi(10)); // ** แจ้งเตือน แต่ค่าเป็นundefined 
 ```

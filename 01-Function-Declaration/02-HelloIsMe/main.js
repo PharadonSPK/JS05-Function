@@ -1,7 +1,7 @@
-let user = prompt("Enter your name")
+let  n = prompt()
 
-function sayHelloUser(){
-    alert(`Hello ${user}`)
+function sayhellouser() {
+    alert('hello'+ n);
 }
 
-sayHelloUser()
+sayhellouser()
